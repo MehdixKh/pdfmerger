@@ -13,7 +13,7 @@ A PySide6-based desktop app for managing PDFs with three features: merging PDFs,
 1. **Clone/pdfmerger**: Clone or download the project.
 2. **Create Virtual Environment**:
    ```bash
-   cd path/to/pdf_tools
+   cd path/to/pdfmerger
    python -m venv venv
    ```
 
@@ -30,7 +30,7 @@ A PySide6-based desktop app for managing PDFs with three features: merging PDFs,
 
 ### Run the App:
 ```bash
-python pdf_tools.py
+python pdfmerger.py
 ```
 
 ### Features:
@@ -40,10 +40,10 @@ python pdf_tools.py
 
 ## Project Structure
 ```
-pdf_tools/
+pdfmerger/
 │
 ├── venv/                    # Virtual environment
-├── pdf_tools.py             # Main script
+├── pdfmerger.py             # Main script
 ├── README.md                # Documentation
 └── requirements.txt         # Dependencies
 ```
